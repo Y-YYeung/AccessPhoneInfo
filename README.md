@@ -6,8 +6,8 @@ A demo that shows how to get part of the basic information of iPhone and how to 
 
 The Screen shot of the result are:
 
-![Result 1](/Users/Mon/Developer/iOS/AccessPhoneInfo/image/IMG_0209.PNG)
+![Result 1](/image/IMG_0209.PNG)
 
-![Result 2](/Users/Mon/Developer/iOS/AccessPhoneInfo/image/IMG_0210.PNG)
+![Result 2](/image/IMG_0210.PNG)
 
 
