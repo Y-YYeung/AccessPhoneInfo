@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>key</key>
+		<string>Support Multitasking</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].multitaskingSupported</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Device Name</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].name</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>System Name</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].systemName</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Device Model</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].model</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Device Model Localized Name</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].localizedModel</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Screen Preference</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].userInterfaceIdiom</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>App Vendor ID</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].identifierForVendor</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+</array>
+</plist>

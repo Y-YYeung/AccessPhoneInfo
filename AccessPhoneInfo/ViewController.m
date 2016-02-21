@@ -6,26 +6,32 @@
 //  Copyright © 2016 Mon. All rights reserved.
 //
 
-#import "ViewController.h"
-#import <CoreTelephony/CTTelephonyNetworkInfo.h>
-#import <CoreTelephony/CTCarrier.h>
 #import "Reachability.h"
+#import "ViewController.h"
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
-@interface ViewController ()
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) Reachability *asyncReachability;
 
-int CTGetSignalStrength();
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
 @implementation ViewController
 
+#pragma mark - System Methods
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
     [self detect];
+    
+//    [self setupSubviews];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,6 +44,15 @@ int CTGetSignalStrength();
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kReachabilityChangedNotification object:nil];
 }
 
+#pragma mark - View Helpers
+- (void)setupSubviews{
+    _tableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+}
+
+#pragma mark - helpers
 - (void)detect{
     UIDevice *device = [UIDevice currentDevice];
     
@@ -93,7 +108,6 @@ int CTGetSignalStrength();
     [self.asyncReachability startNotifier];
 }
 
-#pragma mark - helpers
 - (NSString *)screenPreference{
     UIUserInterfaceIdiom idiom = [UIDevice currentDevice].userInterfaceIdiom;
     switch (idiom) {
@@ -206,5 +220,7 @@ int CTGetSignalStrength();
         NSLog(@"Async network status: %@",[self networkStatus:status]);
     }
 }
+
+#pragma mark - Delegate Methods
 
 @end

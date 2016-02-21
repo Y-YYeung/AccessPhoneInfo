@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F966FB031C788A1000214931 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB021C788A1000214931 /* ViewControllerA.m */; };
+		F966FB061C788E8500214931 /* AppDelegate+MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB051C788E8500214931 /* AppDelegate+MyAppDelegate.m */; };
+		F966FB191C78BDC000214931 /* Battery.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB141C78BDC000214931 /* Battery.plist */; };
+		F966FB1A1C78BDC000214931 /* Carrier.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB151C78BDC000214931 /* Carrier.plist */; };
+		F966FB1B1C78BDC000214931 /* DeviceOrientation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB161C78BDC000214931 /* DeviceOrientation.plist */; };
+		F966FB1C1C78BDC000214931 /* DeviceOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB171C78BDC000214931 /* DeviceOS.plist */; };
+		F966FB291C79823A00214931 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB251C79823A00214931 /* BaseViewController.m */; };
+		F966FB2C1C79827200214931 /* DeviceOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB2B1C79827200214931 /* DeviceOSViewController.m */; };
+		F966FB3C1C7999DA00214931 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB3B1C7999DA00214931 /* ContentViewController.m */; };
+		F966FB401C79AF7D00214931 /* NetworkStatus.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB3F1C79AF7D00214931 /* NetworkStatus.plist */; };
 		F9B3E7CF1C4C7F1B0032DB1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7CE1C4C7F1B0032DB1B /* main.m */; };
 		F9B3E7D21C4C7F1B0032DB1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7D11C4C7F1B0032DB1B /* AppDelegate.m */; };
 		F9B3E7D51C4C7F1B0032DB1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7D41C4C7F1B0032DB1B /* ViewController.m */; };
@@ -38,6 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F966FB011C788A1000214931 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		F966FB021C788A1000214931 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		F966FB041C788E8500214931 /* AppDelegate+MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MyAppDelegate.h"; sourceTree = "<group>"; };
+		F966FB051C788E8500214931 /* AppDelegate+MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MyAppDelegate.m"; sourceTree = "<group>"; };
+		F966FB141C78BDC000214931 /* Battery.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Battery.plist; sourceTree = "<group>"; };
+		F966FB151C78BDC000214931 /* Carrier.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Carrier.plist; sourceTree = "<group>"; };
+		F966FB161C78BDC000214931 /* DeviceOrientation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceOrientation.plist; sourceTree = "<group>"; };
+		F966FB171C78BDC000214931 /* DeviceOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceOS.plist; sourceTree = "<group>"; };
+		F966FB251C79823A00214931 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F966FB261C79823A00214931 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F966FB2A1C79827200214931 /* DeviceOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceOSViewController.h; sourceTree = "<group>"; };
+		F966FB2B1C79827200214931 /* DeviceOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceOSViewController.m; sourceTree = "<group>"; };
+		F966FB3A1C7999DA00214931 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		F966FB3B1C7999DA00214931 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		F966FB3F1C79AF7D00214931 /* NetworkStatus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetworkStatus.plist; sourceTree = "<group>"; };
 		F9B3E7CA1C4C7F1B0032DB1B /* AccessPhoneInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessPhoneInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B3E7CE1C4C7F1B0032DB1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9B3E7D01C4C7F1B0032DB1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +112,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F966FB001C78896B00214931 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F966FB011C788A1000214931 /* ViewControllerA.h */,
+				F966FB021C788A1000214931 /* ViewControllerA.m */,
+				F966FB261C79823A00214931 /* BaseViewController.h */,
+				F966FB251C79823A00214931 /* BaseViewController.m */,
+				F966FB2A1C79827200214931 /* DeviceOSViewController.h */,
+				F966FB2B1C79827200214931 /* DeviceOSViewController.m */,
+				F966FB3A1C7999DA00214931 /* ContentViewController.h */,
+				F966FB3B1C7999DA00214931 /* ContentViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F966FB131C78BDC000214931 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				F966FB141C78BDC000214931 /* Battery.plist */,
+				F966FB151C78BDC000214931 /* Carrier.plist */,
+				F966FB161C78BDC000214931 /* DeviceOrientation.plist */,
+				F966FB171C78BDC000214931 /* DeviceOS.plist */,
+				F966FB3F1C79AF7D00214931 /* NetworkStatus.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
 		F9B3E7C11C4C7F1B0032DB1B = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +165,11 @@
 		F9B3E7CC1C4C7F1B0032DB1B /* AccessPhoneInfo */ = {
 			isa = PBXGroup;
 			children = (
-				F9B3E7D01C4C7F1B0032DB1B /* AppDelegate.h */,
-				F9B3E7D11C4C7F1B0032DB1B /* AppDelegate.m */,
+				F966FB001C78896B00214931 /* Controllers */,
 				F9B3E7D31C4C7F1B0032DB1B /* ViewController.h */,
 				F9B3E7D41C4C7F1B0032DB1B /* ViewController.m */,
-				F9B3E7D61C4C7F1B0032DB1B /* Main.storyboard */,
 				F9B3E7D91C4C7F1B0032DB1B /* Assets.xcassets */,
-				F9B3E7DB1C4C7F1B0032DB1B /* LaunchScreen.storyboard */,
-				F9B3E7DE1C4C7F1B0032DB1B /* Info.plist */,
+				F966FB131C78BDC000214931 /* Plists */,
 				F9B3E7CD1C4C7F1B0032DB1B /* Supporting Files */,
 			);
 			path = AccessPhoneInfo;
@@ -129,7 +178,14 @@
 		F9B3E7CD1C4C7F1B0032DB1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9B3E7D61C4C7F1B0032DB1B /* Main.storyboard */,
+				F9B3E7DB1C4C7F1B0032DB1B /* LaunchScreen.storyboard */,
+				F9B3E7D01C4C7F1B0032DB1B /* AppDelegate.h */,
+				F9B3E7D11C4C7F1B0032DB1B /* AppDelegate.m */,
+				F966FB041C788E8500214931 /* AppDelegate+MyAppDelegate.h */,
+				F966FB051C788E8500214931 /* AppDelegate+MyAppDelegate.m */,
 				F9B3E7CE1C4C7F1B0032DB1B /* main.m */,
+				F9B3E7DE1C4C7F1B0032DB1B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -266,7 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B3E7DD1C4C7F1B0032DB1B /* LaunchScreen.storyboard in Resources */,
+				F966FB1B1C78BDC000214931 /* DeviceOrientation.plist in Resources */,
 				F9B3E7DA1C4C7F1B0032DB1B /* Assets.xcassets in Resources */,
+				F966FB401C79AF7D00214931 /* NetworkStatus.plist in Resources */,
+				F966FB1A1C78BDC000214931 /* Carrier.plist in Resources */,
+				F966FB1C1C78BDC000214931 /* DeviceOS.plist in Resources */,
+				F966FB191C78BDC000214931 /* Battery.plist in Resources */,
 				F9B3E7D81C4C7F1B0032DB1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,9 +354,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B3E7D51C4C7F1B0032DB1B /* ViewController.m in Sources */,
+				F966FB291C79823A00214931 /* BaseViewController.m in Sources */,
 				F9B3E7D21C4C7F1B0032DB1B /* AppDelegate.m in Sources */,
+				F966FB2C1C79827200214931 /* DeviceOSViewController.m in Sources */,
+				F966FB031C788A1000214931 /* ViewControllerA.m in Sources */,
 				F9B3EAE81C4CD47F0032DB1B /* Reachability.m in Sources */,
+				F966FB3C1C7999DA00214931 /* ContentViewController.m in Sources */,
 				F9B3E7CF1C4C7F1B0032DB1B /* main.m in Sources */,
+				F966FB061C788E8500214931 /* AppDelegate+MyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

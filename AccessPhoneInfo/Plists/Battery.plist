@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>key</key>
+		<string>Battery Level</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].batteryLevel</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Battery State</string>
+		<key>code</key>
+		<string>[UIDevice currentDevice].batteryState</string>
+		<key>type</key>
+		<string>single-line</string>
+	</dict>
+</array>
+</plist>
