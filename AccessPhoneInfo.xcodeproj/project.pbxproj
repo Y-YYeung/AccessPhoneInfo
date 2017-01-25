@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F966FB031C788A1000214931 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB021C788A1000214931 /* ViewControllerA.m */; };
+		F94FD04B1E384EA0005E0C89 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F94FD04A1E384EA0005E0C89 /* Reachability.m */; };
 		F966FB061C788E8500214931 /* AppDelegate+MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F966FB051C788E8500214931 /* AppDelegate+MyAppDelegate.m */; };
 		F966FB191C78BDC000214931 /* Battery.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB141C78BDC000214931 /* Battery.plist */; };
 		F966FB1A1C78BDC000214931 /* Carrier.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB151C78BDC000214931 /* Carrier.plist */; };
@@ -19,7 +19,6 @@
 		F966FB401C79AF7D00214931 /* NetworkStatus.plist in Resources */ = {isa = PBXBuildFile; fileRef = F966FB3F1C79AF7D00214931 /* NetworkStatus.plist */; };
 		F9B3E7CF1C4C7F1B0032DB1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7CE1C4C7F1B0032DB1B /* main.m */; };
 		F9B3E7D21C4C7F1B0032DB1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7D11C4C7F1B0032DB1B /* AppDelegate.m */; };
-		F9B3E7D51C4C7F1B0032DB1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7D41C4C7F1B0032DB1B /* ViewController.m */; };
 		F9B3E7D81C4C7F1B0032DB1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B3E7D61C4C7F1B0032DB1B /* Main.storyboard */; };
 		F9B3E7DA1C4C7F1B0032DB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B3E7D91C4C7F1B0032DB1B /* Assets.xcassets */; };
 		F9B3E7DD1C4C7F1B0032DB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B3E7DB1C4C7F1B0032DB1B /* LaunchScreen.storyboard */; };
@@ -27,7 +26,6 @@
 		F9B3E7F31C4C7F1B0032DB1B /* AccessPhoneInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3E7F21C4C7F1B0032DB1B /* AccessPhoneInfoUITests.m */; };
 		F9B3E8061C4CB70D0032DB1B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B3E8051C4CB70D0032DB1B /* CoreTelephony.framework */; };
 		F9B3E8081C4CD0C60032DB1B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B3E8071C4CD0C60032DB1B /* SystemConfiguration.framework */; };
-		F9B3EAE81C4CD47F0032DB1B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B3EAE71C4CD47F0032DB1B /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F966FB011C788A1000214931 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
-		F966FB021C788A1000214931 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		F94FD0491E384EA0005E0C89 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F94FD04A1E384EA0005E0C89 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		F966FB041C788E8500214931 /* AppDelegate+MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MyAppDelegate.h"; sourceTree = "<group>"; };
 		F966FB051C788E8500214931 /* AppDelegate+MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+MyAppDelegate.m"; sourceTree = "<group>"; };
 		F966FB141C78BDC000214931 /* Battery.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Battery.plist; sourceTree = "<group>"; };
@@ -67,8 +65,6 @@
 		F9B3E7CE1C4C7F1B0032DB1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9B3E7D01C4C7F1B0032DB1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9B3E7D11C4C7F1B0032DB1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F9B3E7D31C4C7F1B0032DB1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F9B3E7D41C4C7F1B0032DB1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9B3E7D71C4C7F1B0032DB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B3E7D91C4C7F1B0032DB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B3E7DC1C4C7F1B0032DB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,8 +77,6 @@
 		F9B3E7F41C4C7F1B0032DB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B3E8051C4CB70D0032DB1B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		F9B3E8071C4CD0C60032DB1B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F9B3EAE61C4CD47F0032DB1B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		F9B3EAE71C4CD47F0032DB1B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F94FD0481E384EA0005E0C89 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F94FD0491E384EA0005E0C89 /* Reachability.h */,
+				F94FD04A1E384EA0005E0C89 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		F966FB001C78896B00214931 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F966FB011C788A1000214931 /* ViewControllerA.h */,
-				F966FB021C788A1000214931 /* ViewControllerA.m */,
 				F966FB261C79823A00214931 /* BaseViewController.h */,
 				F966FB251C79823A00214931 /* BaseViewController.m */,
 				F966FB2A1C79827200214931 /* DeviceOSViewController.h */,
@@ -142,7 +143,6 @@
 		F9B3E7C11C4C7F1B0032DB1B = {
 			isa = PBXGroup;
 			children = (
-				F9B3EAE51C4CD47F0032DB1B /* Reachability */,
 				F9B3E8071C4CD0C60032DB1B /* SystemConfiguration.framework */,
 				F9B3E8051C4CB70D0032DB1B /* CoreTelephony.framework */,
 				F9B3E7CC1C4C7F1B0032DB1B /* AccessPhoneInfo */,
@@ -165,9 +165,8 @@
 		F9B3E7CC1C4C7F1B0032DB1B /* AccessPhoneInfo */ = {
 			isa = PBXGroup;
 			children = (
+				F94FD0481E384EA0005E0C89 /* Reachability */,
 				F966FB001C78896B00214931 /* Controllers */,
-				F9B3E7D31C4C7F1B0032DB1B /* ViewController.h */,
-				F9B3E7D41C4C7F1B0032DB1B /* ViewController.m */,
 				F9B3E7D91C4C7F1B0032DB1B /* Assets.xcassets */,
 				F966FB131C78BDC000214931 /* Plists */,
 				F9B3E7CD1C4C7F1B0032DB1B /* Supporting Files */,
@@ -206,16 +205,6 @@
 				F9B3E7F41C4C7F1B0032DB1B /* Info.plist */,
 			);
 			path = AccessPhoneInfoUITests;
-			sourceTree = "<group>";
-		};
-		F9B3EAE51C4CD47F0032DB1B /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				F9B3EAE61C4CD47F0032DB1B /* Reachability.h */,
-				F9B3EAE71C4CD47F0032DB1B /* Reachability.m */,
-			);
-			name = Reachability;
-			path = "../Third Party/Reachability";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +269,7 @@
 		F9B3E7C21C4C7F1B0032DB1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Mon;
 				TargetAttributes = {
 					F9B3E7C91C4C7F1B0032DB1B = {
@@ -353,14 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B3E7D51C4C7F1B0032DB1B /* ViewController.m in Sources */,
 				F966FB291C79823A00214931 /* BaseViewController.m in Sources */,
 				F9B3E7D21C4C7F1B0032DB1B /* AppDelegate.m in Sources */,
 				F966FB2C1C79827200214931 /* DeviceOSViewController.m in Sources */,
-				F966FB031C788A1000214931 /* ViewControllerA.m in Sources */,
-				F9B3EAE81C4CD47F0032DB1B /* Reachability.m in Sources */,
 				F966FB3C1C7999DA00214931 /* ContentViewController.m in Sources */,
 				F9B3E7CF1C4C7F1B0032DB1B /* main.m in Sources */,
+				F94FD04B1E384EA0005E0C89 /* Reachability.m in Sources */,
 				F966FB061C788E8500214931 /* AppDelegate+MyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,8 +416,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -472,8 +461,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

@@ -63,6 +63,9 @@ static Reachability *asyncReachability;
             return @"iPad";
         case UIUserInterfaceIdiomPhone:
             return @"iPhone";
+            
+        default:
+            return nil;
     }
 }
 
